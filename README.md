@@ -1,4 +1,4 @@
-# task_article_prompt
+# Article-to-HTML Converter
 
 This application, built using Python, connects to the OpenAI API to process text files efficiently. It reads a provided article from a text file and sends its content, along with a specified prompt, to OpenAI for content generation. The resulting HTML code from OpenAI is then saved as artykul.html for easy access and use.
 
