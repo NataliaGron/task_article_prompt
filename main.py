@@ -13,6 +13,7 @@ def generate_html_article(article_text):
         Zidentyfikuj miejsca, gdzie warto wstawić grafiki i oznacz je tagiem <img src="image_placeholder.jpg" alt="<prompt>">.
         Dodaj podpisy pod obrazkami z użyciem tagu <figcaption>.
         Proszę, aby wynik zawierał tylko część HTML, bez nagłówków <html>, <head> czy <body>.
+        Wygeneruj to jako plain text a nie w bloku code.
         Treść artykułu:
         {article_text}
         """
