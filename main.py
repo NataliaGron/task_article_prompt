@@ -10,8 +10,10 @@ def generate_html_article(article_text):
     prompt = f"""
         Przekształć poniższy artykuł do struktury HTML.
         Użyj odpowiednich tagów HTML do strukturyzacji treści.
+        Kod powinien znajdować się w tagu <article>.
         Zidentyfikuj miejsca, gdzie warto wstawić grafiki i oznacz je tagiem <img src="image_placeholder.jpg" alt="<prompt>">.
         Niech prompt będzie bardzo dokładny, aby można go było użyć do wygenerowania grafiki.
+        Najlepiej, aby zaczynał się od słów: "Ilustracja przedstawiająca".
         Dodaj podpisy pod obrazkami z użyciem tagu <figcaption>.
         Proszę, aby wynik zawierał tylko część HTML, bez nagłówków <html>, <head> czy <body>.
         Wygeneruj to jako plain text a nie w bloku code.
