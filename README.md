@@ -20,3 +20,11 @@ The project uses Python, along with the OpenAI API for text processing and HTML 
 - Create an article.txt file in the same directory as the script and paste the article content you want to process into it.
 - In the terminal, navigate to the folder containing the script and run it with the following command: `python main.py`
 - The generated artykul.html file will appear in the same folder, ready to be used or further edited.
+
+&nbsp;
+
+## Additional Files
+
+In addition to the article-to-HTML converter functionality, this project includes two additional HTML files to help you preview and visualize the generated article:
+- `szablon.html`: This is a template file that provides the basic structure for displaying the article. It includes a placeholder `<body>` section where the article content will be inserted. You can use this template to format and style the generated article in any way you prefer. Simply copy and paste the generated HTML content from `artykul.html` into the `<body>` of this template.
+- `podglad.html`: This file allows you to preview the article directly in the browser. It contains the same template as `szablon.html`, and the generated article content from the `artykul.html` file is already pasted into the `<body>` section.
